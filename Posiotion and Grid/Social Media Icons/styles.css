@@ -1,0 +1,36 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+ul {
+    list-style: none;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+}
+a i{
+    color: black;
+}
+.facebook i:hover{
+    background-color: #eee;
+    color: blue;
+}
+.twiter i:hover{
+    color: lightblue;
+}
+.google i:hover{
+    background-color: #eee;
+    color: red;
+} 
+.linked i:hover{
+    background-color: #eee;
+    color: blue;
+} 
+.istagram i:hover{
+    background-color: #eee;
+    color: blue;
+} 
