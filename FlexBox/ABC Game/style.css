@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 15vw;
+    height: 25rem;
+}
+
+span{
+   border: 1px solid black;  
+   padding:10px 20px 10px 20px; 
+}
+
+span:nth-child(1){
+    order: 1;
+}
