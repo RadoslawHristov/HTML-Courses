@@ -1,0 +1,85 @@
+body {
+    padding: 3em;
+}body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    margin: 1em;
+    border-style: solid;
+    border-width: 0.25em;
+    border-color: black;
+    box-shadow: 0 0 10px black;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.page > header {
+    border-bottom-style: solid;
+    border-bottom-width: 0.15em;
+    border-bottom-color: gray;
+}
+
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page > header {
+    flex-basis: 100%;
+}
+
+.page > main {
+    flex-basis: 65%;
+}
+
+.page > aside {
+    flex-basis: 25%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: Verdana, sans-serif;
+}
+
+blockquote, h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    box-sizing: border-box;
+    border-left-style: solid;
+    border-left-width: 0.15em;
+    border-left-color: slategray;
+    padding-left: 1em;
+    float: right;
+    width: 50%;
+    font-style: italic;
+}
+
+blockquote cite {
+    float: right;
+}
+
+.site-title {
+    font-family: Helvetica, serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
