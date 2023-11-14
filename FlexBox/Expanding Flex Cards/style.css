@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0.5px 0.5px 1px 1px lightgray;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 0px 0px black; */
+}
+
+.container img{
+    width: 100px;
+    height: 400px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.container img:nth-child(2){
+    width: 400px;
+}
