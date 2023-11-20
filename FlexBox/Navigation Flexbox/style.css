@@ -1,0 +1,24 @@
+header{
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    padding-right: 20px;
+}
+
+ul li{
+    padding-right: 30px;
+    color: rgb(0, 153, 0);
+}
+
+h1{
+    margin: 0px;
+    display: flex;
+    flex: 100%;
+}
