@@ -1,0 +1,568 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image:url(https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1701648000&semt=ais);
+    margin: 0px;
+    width: auto;
+}
+
+
+/* HEADER */
+
+header h1 {
+    margin: 0px;
+    color: purple;
+    padding-left: 40px;
+}
+
+header .hiddenForm{
+    display: none;
+}
+
+header h3 {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-small;
+    margin: 0px;
+    padding-left: 40px;
+}
+
+header nav{
+    display: inline-block;
+    margin-left: 500px;
+}
+
+header nav ul li {
+    position: relative;
+    top: -30px;
+    text-align: end;
+    display: inline;
+    padding-left: 30px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Section Website*/
+
+.website{
+    width: 800px;
+    position: relative;
+    left: 250px;
+}
+
+.website h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.website p{
+    width: 600px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.website i{
+    position: relative;
+    left: 600px;
+    top: 156px;
+    padding-left: 10px;
+}
+
+.website .btn{
+    padding: 7px 20px;
+    border-radius: 4px;
+}
+
+/* Team Section */
+
+.team{
+    margin-left: 120px;
+}
+
+.team h2{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.team hr{
+    position: relative;
+    left: -75px;
+    width: 120px;
+    height: 5px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+
+.card{
+    width: 230px;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card h3{
+    margin: 0px;
+}
+
+.card h4{
+    margin:5px 0px;
+}
+
+
+.container{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px 60px;
+}
+
+
+/* Section Sign up*/
+
+.signup {
+    background-color:rgb(114 0 130);
+    color: white;
+    height: 200px;
+    text-align: center;
+    width: auto;
+}
+
+.signup h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.signup hr{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    border: black;
+    margin-bottom: 55px;
+}
+
+
+.forms input{
+
+    width: 260px;
+    height: 25px;
+}
+
+.forms .btn{
+    padding: 5px 20px;
+}
+
+
+/* Section Testmon */
+
+.testmon h2{
+    position: relative;
+    left: 400px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+   
+}
+
+.testmon hr{
+    position: relative;
+    left: -70px;
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    border: black;
+    margin-bottom: 50px;
+}
+
+.testmon{
+    margin-left: 11%;
+    margin-bottom: 30px;
+}
+
+
+/* FOOTER  */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 7px solid gray;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-abstract-grey-gradient-background-with-dot-pattern-can-be-used-for-image_373862.jpg);
+    height: 230px;
+}
+
+
+/* div Title */
+.title h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+.title p{
+    font-family: Georgia, serif;
+    width: 240px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+/* div Options */
+
+.options{
+    text-align: start;
+}
+
+.options h4{
+
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin:20px 0px;
+}
+
+.options ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 250px;
+    height: 120px;
+    padding: 0px;
+}
+
+.options ul li{ 
+    list-style: none;
+    padding: 0px;
+}
+
+.options ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.options ul li a:hover{
+    color: darkmagenta;
+}
+
+
+/* Div Contact us */
+
+.contacts{
+    margin-right: 30px;
+}
+
+.contacts h4{
+    margin-top: 20px 0px;
+}
+
+.contacts ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.contacts ul li i{
+
+    display: inline-block;
+}
+
+.contacts ul li p{
+    display: inline-block;
+    font-family:Georgia, serif;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    margin: 6px;
+}
+
+
+@media(max-width:1024){
+
+    body{
+        max-width: 1024px;
+    }
+
+    header h1{
+        font-size: 24px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+    header h3{
+        padding-left: 10px;
+    }
+    .navigation {
+        margin-left: 90px;
+
+    }
+
+
+    .website{
+        margin-top: 0px;
+        left: 70px;
+    }
+    .website p {
+        font-size: 14px;
+        width: 500px;
+    }
+    .website i{
+        left: 520px;
+        top: 160px;
+    }
+    
+
+    .team{
+        max-width: 800px;
+        margin-left: 60px;
+    }
+    .team hr{
+        left: -15px;
+    }
+    .container {
+        max-width: 800px;
+        margin-left: 0px;
+        gap: 30px;
+        justify-content: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .container .card{
+        width: 200px;
+    }
+
+    .signup{
+        width: auto;
+    }
+
+
+    .testmon{
+        max-width: 800px;
+        margin: 5px;
+        margin-bottom: 50px;
+    }
+    .testmon h2{
+        left: 300px;
+    }
+    .testmon hr{
+        left: 10px;
+    }
+    .testmon .container{
+        margin-left: 50px;
+    }
+
+    footer .contacts{
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:800px) {
+    
+    body{
+        max-width: 800px;
+    }
+
+    header h1{
+        font-size: 24px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+    header h3{
+        padding-left: 10px;
+    }
+    .navigation {
+        margin-left: 90px;
+
+    }
+
+
+    .website{
+        margin-top: 0px;
+        left: 70px;
+    }
+    .website p {
+        font-size: 14px;
+        width: 500px;
+    }
+    .website i{
+        left: 520px;
+        top: 160px;
+    }
+    
+
+    .team{
+        max-width: 800px;
+        margin-left: 60px;
+    }
+    .team hr{
+        left: -15px;
+    }
+    .container {
+        max-width: 800px;
+        margin-left: 0px;
+        gap: 30px;
+        justify-content: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .container .card{
+        width: 200px;
+    }
+
+    .signup{
+        width: auto;
+    }
+
+
+    .testmon{
+        max-width: 800px;
+        margin: 5px;
+        margin-bottom: 50px;
+    }
+    .testmon h2{
+        left: 300px;
+    }
+    .testmon hr{
+        left: 10px;
+    }
+    .testmon .container{
+        margin-left: 50px;
+    }
+
+    footer .contacts{
+        margin-right: 0px;
+    }
+}
+
+
+@media(max-width:500px){
+
+    body{
+        max-width: 500px;
+    }
+
+    header h1{
+        font-size: 24px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    header h3{
+        padding-left: 10px;
+    }
+    header nav{
+        display: none;
+    }
+    header .hiddenForm{
+        display: inline;
+        position: relative;
+        left: 390px;
+        top: -50px;
+    }
+    header .hiddenForm li{
+        position: relative;
+        top: -20px;
+        left: -150px;
+        width: 25px;
+        height: 4px;
+        list-style: none;
+        background-color: black;
+        margin: 3px;
+    }
+    header .hiddenForm h2 {
+        display: inline;
+        position: relative;
+        top: 20px;
+        left: -290px;
+        padding-left: 15px;
+    }
+
+    .website{
+        max-width: 450px;
+        margin-top: 0px;
+        left: 20px;
+    }
+    .website p {
+        font-size: 14px;
+        width: 250px;
+    }
+    .website i{
+        left: 230px;
+        top: 180px;
+    }
+    
+
+    .team{
+        max-width: 500px;
+        margin-left: 5px;
+    }
+    .team hr{
+        left: 20px;
+    }
+    .container {
+        max-width: 500px;
+        margin-left: 10px;
+        gap: 10px;
+        justify-content: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .container .card{
+        width: 200px;
+    }
+
+
+    .signup{
+        width: auto;
+    }
+
+
+    .testmon{
+        max-width: 500px;
+        margin: 5px;
+        margin-bottom: 50px;
+    }
+    .testmon h2{
+        left: 120px;
+    }
+    .testmon hr{
+        left: 10px;
+    }
+
+    footer{
+        width: 500px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    footer .options{
+        margin-left: 30px;
+    }
+    footer .contacts{
+        margin-left: 30px;
+    }
+
+
+}
+
+
+
+
+
