@@ -1,0 +1,176 @@
+body{
+    margin: 50px 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login i{
+   position: relative;
+   left: -320px;
+}
+
+.login input:focus{
+
+}
+
+.login{
+    width: 450px;
+    height: 170px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: white;
+}
+
+.chunk{
+    background-color: white;
+    border: 1px solid black;
+    width: 80px;
+    height: 20px;
+    padding: 7px 10px;
+    position: relative;
+    top: -90px;
+    left: 111px;
+}
+
+
+
+.login .name{
+    margin-top: 35px;
+}
+
+.login p{
+    display: inline-block;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.login input {
+    
+    width: 230px;
+    height: 23px;
+    padding-left: 20px;
+    margin: 10px 0px;
+    margin-right: 70px;
+}
+
+.btn{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 7px 20px;
+    margin: 10px 10px;
+}
+
+
+
+@media (max-width: 500px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0px;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .login{
+        width: 400px;
+        
+    }
+
+    .login .name{
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+    .login input{
+        margin: 0px;
+        padding: 0px;
+        width: 270px;
+    }
+
+    .login p{
+        margin: 0px;
+        margin-left: 10px;
+        margin-bottom: 35px;
+    }
+
+    .login i{
+        position: relative;
+        left: -270px;
+    }
+
+    .btn {
+
+        margin: 0px;
+        position: relative;
+        top: -15px;
+        left: 10px;
+    }
+
+    .chunk{
+        position: relative;
+        left: 15px;
+        top: 35px;
+    }
+}
+
+@media (max-width: 800px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0px;
+        display: block;
+    }
+
+    .login{
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    .login .name{
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+    .login input{
+        margin: 0px;
+        padding: 0px;
+        width: 270px;
+    }
+
+    .login p{
+        margin: 0px;
+        margin-left: 10px;
+        margin-bottom: 35px;
+    }
+
+    .login i{
+        position: relative;
+        left: -270px;
+    }
+
+    .btn {
+
+        margin: 0px;
+        position: relative;
+        top: -15px;
+        left: 10px;
+    }
+
+    .chunk{
+        position: relative;
+        left: 15px;
+        top: 35px;
+    }
+}
+
+
