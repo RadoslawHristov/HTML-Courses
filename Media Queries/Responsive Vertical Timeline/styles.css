@@ -1,0 +1,437 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    border: 0.3rem solid rgb(153, 153, 153);
+}
+
+.timeline{
+    width: auto;
+    border-right: 0.3rem solid rgb(153, 153, 153);
+    position: relative;
+    left: -200px;
+}
+
+h3{
+    font-style: italic;
+}
+
+article{
+    width: 350px;
+}
+
+.title{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color:white;
+    position: relative;
+    width: 300px;
+    left: 200px;
+    top: -22px;
+}
+
+.first{
+    position: relative;
+    left: 400px;
+    top: -40px;
+}
+.first .circle{
+    position: relative;
+    left: -60px;
+    top: 45px;
+    background-color: green;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.two{
+    position: relative;
+    top: -50px;
+}
+.two p{
+    margin: 0px;
+}
+.two .circle{
+    position: relative;
+    left: 340px;
+    top: 40px;
+    background-color: orange;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+
+.three{
+    position: relative;
+    left: 400px;
+    top: -70px;
+}
+.three .circle{
+    position: relative;
+    left: -60px;
+    top: 45px;
+    background-color: green;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.four{
+    position: relative;
+    top: -90px;
+}
+.four .circle{
+    position: relative;
+    left: 340px;
+    top: 45px;
+    background-color: orange;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+
+.five{
+    position: relative;
+    left: 395px;
+    top: -60px;
+}
+.five .circle{
+    position: relative;
+    left: -55px;
+    top: 42px;
+    background-color: green;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+
+.six{
+    position: relative;
+    top: -50px;
+    left: -50px;
+}
+.six .circle{
+    position: relative;
+    left: 390px;
+    top: 42px;
+    background-color: orange;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+
+.seven{
+    position: relative;
+    left: 400px;
+    top: -40px;
+}
+.seven .circle{
+    position: relative;
+    left: -60px;
+    top: 42px;
+    background-color: green;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+@media  (min-width:600px) AND (max-width: 769px){
+
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    .timeline{
+        margin-top: 20px;
+    }
+    .title{
+        margin: 0px;
+        margin-top: 20px;
+        left: 160px;
+        top: -30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+
+    .first{
+        width: 250px;
+        position: relative;
+        left: 350px;
+    }
+
+
+    .two{
+        width: 250px;
+        left: -10px;
+    }
+    .timeline .two header{
+        width: 200px;
+        position: relative;
+        left: 140px;
+    }
+    .two .circle{
+        left: 300px;
+    }
+    .two section p{
+        width: 200px;
+        position: relative;
+        left: 70px;
+    }
+    .two section ul{
+        position: relative;
+        left: 70px;
+        width: 200px;
+        padding-left: 0px;
+        list-style: none;
+    }
+    .two section ul li{
+        padding-bottom: 10px;
+        position: relative;
+        left: -70px;
+    }
+    .two section ul li strong{
+        position: relative;
+        left: 70px;
+    }
+
+    .three{
+        width: 250px;
+        position: relative;
+        left: 350px;
+    }
+
+
+    .four{
+        width: 250px;
+        left: 0px;
+    }
+    .four .circle{
+        left: 290px;
+    }
+    .four header{
+        position: relative;
+        left: 175px;
+    }
+    .four section{
+        position: relative;
+        left: 30px;
+    }
+
+
+    .five{
+        width: 250px;
+        position: relative;
+        left: 345px;
+    }
+
+
+
+    .six{
+        width: 250px;
+        left: -25px;
+    }
+    .six header{
+        position: relative;
+        left: 250px;
+    }
+    .six .circle{
+        left: 315px;
+    }
+    .six section{
+        position: relative;
+        left: 50px;
+    }
+
+    .seven{
+        width: 250px;
+        position: relative;
+        left: 350px;
+    }
+
+}
+
+
+@media (max-width:600px){
+
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    .timeline{
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .title{
+        margin: 0px;
+        margin-top: 20px;
+        left: 106px;
+        top: -20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+
+
+    .first{
+        position: relative;
+        left: 250px;
+        top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+    .first .circle{
+        top: 5px;
+    }
+    .timeline .first header{
+        width: 250px;
+        position: relative;
+        top: -40px;
+    }
+    .first header h3{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .first section p{
+        margin: 0px;
+        position: relative;
+        top: -30px;
+    }
+
+
+
+    .two{
+        left: 250px;
+        top: 5px;
+        width: 250px;
+        padding-bottom: 20px;
+    }
+    .two .circle{
+        left: -60px;
+        top: 30px;
+    }
+    .timeline .two header{
+        position: relative;
+        width: 180px;
+        top: -15px;
+        left: -10px;
+    }
+    .two section{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        left: 100px;
+        top: -20px;
+    }
+    .two section p{
+        position: relative;
+        width: 250px;
+        height: 150px;
+        left: -110px;
+    }
+    .two section ul li{
+        position: relative;
+        width: 150px;
+        height: 200px;
+        left: -40px;
+        top: -60px;
+    }
+    .two section ul .twoLi{
+        position: relative;
+        top: -175px;
+    }
+    .two section ul .threeLi{
+        position: relative;
+        top: -250px;
+    }
+
+
+    .three{
+        left: 220px;
+        width: 280px;
+        top: 180px;
+    }
+    .three header{
+        position: relative;
+        width: 200px;
+        left: 20px;
+        top: 5px;
+    }   
+    .three .circle{
+        left: -30px;
+    } 
+    .three .description p {
+        width: 150;
+        height: 270px;
+        padding-left: 20px;
+    }
+
+
+    .four{
+        width: 250px;
+        left: 250px;
+        top: 65px;
+        padding-right: 20px;
+    }
+    .four header{
+        position: relative;
+        left: 0px;
+    }
+    .four .circle{
+        left: -60px;
+        top: 45px;
+    }
+
+
+    .five{
+        width: 270px;
+        position: relative;
+        left: 245px;
+        top: 50px;
+    }
+
+
+
+    .six{
+        width: 240px;
+        left: 250px;
+        top: 30px;
+    }
+    .six header h3{
+        position: relative;
+        left: 0px;
+    }
+    .six .circle{
+        left: -60px;
+    }
+
+
+    .seven{
+        width: 250px;
+        position: relative;
+        left: 250px;
+        top: 0px;
+    }
+
+
+}
