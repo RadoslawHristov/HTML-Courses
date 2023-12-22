@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Create Task – Task Board</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="create-task.html">🖹</a>
+    <h1>Create Task</h1>
+  </header>
+
+  <aside>
+
+    <ul>
+      <li><a href="/Task Board Web Site/Home-Page/home.html">Home</a></li>
+      <li><a href="/Task Board Web Site/View-Tasks-Page/view-tasks.html">Task Board</a></li>
+      <li><a href="/Task Board Web Site/Create-Task-Page/create-task.html">Create</a></li>
+      <li><a href="/Task Board Web Site/search-Task/index.html">Search</a></li>
+    </ul>
+
+  </aside>
+
+  <main>
+    <form method="post">
+      <table>
+
+        <tbody>
+
+          <tr class="title">
+            <th>Title</th>
+            <td><input type="text"></td>
+          </tr>
+
+          <tr class="description">
+            <th>Description</th>
+            <td><textarea cols="30" rows="10"></textarea></td>
+          </tr>
+
+          <tr class="board">
+            <th>Board</th>
+            <td>
+              <select>
+                <option value="Open">Open</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Done">Done</option>
+              </select>
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+      <button class="btn" type="submit">Create</button>
+
+    </form>
+  </main>
+
+  <footer>
+    <div>© 2021 - Task Board</div>
+  </footer>
+
+</body>
+
+</html>
