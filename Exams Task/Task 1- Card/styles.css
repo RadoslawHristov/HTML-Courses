@@ -1,0 +1,82 @@
+@import url(./fonts.css);
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container{
+    border: 2px solid gray;
+    background-color: rgb(242 231 172);
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+
+.cardContainer{
+    width: 420px;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.cardContainer .card{
+    width: 190px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+.cardContainer .card p{
+    position: relative;
+    top: -24px;
+    width: 190px;
+    padding: 3px 1px;
+    background-color: rgb(103 80 94);
+    color: white;
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    text-align: start;
+}
+
+.cardContainer .card img{
+    width: 190px;
+    height: 120px;
+    object-fit: cover;
+    -webkit-box-shadow: -48px -21px 135px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -48px -21px 135px -1px rgba(0,0,0,0.75);
+    box-shadow: -48px -21px 135px -1px rgba(0,0,0,0.75);
+}
+
+
+.category{
+    width: 150px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+.container .category  ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.container .category  ul li{
+
+    padding-bottom: 10px;
+}
+
+.container .category  ul li a{
+    text-decoration: none;
+    color:  rgb(103 80 94);
+}
+
+.container .category  ul li i{
+    color:  rgb(103 80 94);
+}
